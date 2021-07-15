@@ -1,6 +1,6 @@
 {
-  "name": "package",
-  "version": "1.0.0",
+  "name": "@trejocode/package",
+  "version": "1.0.1",
   "description": "Get random \"Hello\" message",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TrejoCode/package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "hello",
